@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.upper{
+    height: 100px;
+    text-align: center;
+    background-color: black;
+}
+
+.upper span{
+    color: white;
+    font-size: xx-large;
+    position: relative;
+    top: 40px;
+    border-bottom: 2px solid white;
+}
+
+.herosection img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.herosection{
+    display: flex;
+}
+
+.herosection h1{
+    font-weight: bold;
+    text-align: end;
+    position: relative;
+    top: 200px;
+}
+
+.lower{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background-color: black;
+}
+
+.lower span{
+    color: white;
+    padding: 10px;
+}
